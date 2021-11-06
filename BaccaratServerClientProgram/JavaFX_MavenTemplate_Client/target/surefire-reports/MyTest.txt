@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: MyTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.602 s <<< FAILURE! - in MyTest
+test  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at MyTest.<clinit>(MyTest.java:20)
+Caused by: java.lang.IllegalStateException: Toolkit not initialized
+	at MyTest.<clinit>(MyTest.java:20)
+
